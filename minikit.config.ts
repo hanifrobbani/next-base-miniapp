@@ -35,5 +35,6 @@ export const minikitConfig = {
     ogTitle: "testing subtitle",
     ogDescription: "myfirst mini app on base app",
     ogImageUrl: `${ROOT_URL}/hero.png`,
+    noindex: true
   },
 } as const;
