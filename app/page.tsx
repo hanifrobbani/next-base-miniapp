@@ -4,6 +4,13 @@ import { Wallet } from "@coinbase/onchainkit/wallet";
 import { useMiniKit } from "@coinbase/onchainkit/minikit";
 // import { useQuickAuth } from "@coinbase/onchainkit/minikit";
 import styles from "./page.module.css";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  other: {
+    'base:app_id': '69523c834d3a403912ed84bb',
+  },
+};
 
 export default function Home() {
   // If you need to verify the user's identity, you can use the useQuickAuth hook.
